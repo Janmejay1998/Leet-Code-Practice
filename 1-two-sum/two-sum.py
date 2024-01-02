@@ -4,6 +4,5 @@ class Solution:
         for i,n in enumerate(nums):
             if n in sum_dict:
                 return sum_dict[n],i
-            else:
-                sum_dict[target-n]=i
+            sum_dict[target-n]=i
             
