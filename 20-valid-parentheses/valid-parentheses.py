@@ -13,10 +13,8 @@ class Solution:
         for ele in s:
             if ele in brac:
                 stack.append(brac[ele])
-            elif ele in close:
-                if not stack or ele != stack.pop():
-                    return False
-            
+            elif not stack or ele != stack.pop():
+                return False
             
         return not stack
             
