@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
 
-        stack = []
+        stack = []          # Stack
         
         par_dict = {'(':')','{':'}','[':']'}    # Paranthesis Dictionary
 
