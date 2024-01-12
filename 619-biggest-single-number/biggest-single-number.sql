@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT max(num) num
+SELECT max(num) AS num
 FROM (
     SELECT num
     FROM MyNumbers
